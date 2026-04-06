@@ -18,8 +18,6 @@ int main() {
 
     
     printf("O valor final com desconto e: R$ %.2f\n", valorFinal);
-
-    return 0;
 }
 
 

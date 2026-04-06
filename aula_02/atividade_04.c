@@ -17,8 +17,6 @@ int main() {
     else {
         printf("Reprovado\n");
     }
-
-    return 0;
 }
 
 

@@ -13,6 +13,4 @@ int main() {
     else {
         printf("O ano %d nao e um ano de eleicao.\n", ano);
     }
-
-    return 0;
 }

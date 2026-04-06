@@ -14,6 +14,4 @@ int main() {
     } else {
         printf("Conceito: D\n");
     }
-
-    return 0;
 }

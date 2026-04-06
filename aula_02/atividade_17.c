@@ -12,6 +12,4 @@ int main() {
     } else {
         printf("Clima: Quente\n");
     }
-
-    return 0;
 }

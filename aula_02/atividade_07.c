@@ -22,8 +22,6 @@ int main() {
     else {
         printf("Nao formam um triangulo\n");
     }
-
-    return 0;
 }
 
 

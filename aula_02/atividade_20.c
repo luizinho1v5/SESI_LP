@@ -14,6 +14,4 @@ int main() {
     } else {
         printf("Situacao: Multa gravissima!\n");
     }
-
-    return 0;
 }

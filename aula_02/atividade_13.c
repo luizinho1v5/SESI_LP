@@ -26,6 +26,4 @@ int main() {
     else {
         printf("Operacao invalida!\n");
     }
-
-    return 0;
 }

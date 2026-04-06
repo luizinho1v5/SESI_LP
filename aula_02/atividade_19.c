@@ -12,6 +12,4 @@ int main() {
     } else {
         printf("Valor do frete: R$ 50,00\n");
     }
-
-    return 0;
 }

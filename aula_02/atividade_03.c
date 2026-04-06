@@ -13,7 +13,5 @@ int main() {
     } else {
         printf("Os numeros sao iguais.\n");
     }
-
-    return 0;
 }
 

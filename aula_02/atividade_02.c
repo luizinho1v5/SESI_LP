@@ -12,6 +12,4 @@ int main() {
     } else {
         printf("%d é ímpar.\n", numero);
     }
-
-    return 0;
 }

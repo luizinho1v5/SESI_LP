@@ -26,8 +26,6 @@ int main() {
         // IMC >= 30
         printf("Classificacao: Obesidade\n");
     }
-
-    return 0;
 }
 
 

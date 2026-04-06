@@ -17,7 +17,5 @@ int main() {
     }
 
     printf("O salario final com bonus e: R$ %.2f\n", salarioFinal);
-
-    return 0;
 }
 

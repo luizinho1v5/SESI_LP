@@ -14,5 +14,4 @@ int main() {
     }
 
     printf("Valor total da conta: R$ %.2f\n", total);
-    return 0;
 }

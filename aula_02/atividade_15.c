@@ -14,6 +14,4 @@ int main() {
     else {
         printf("Voto obrigatorio.\n");
     }
-
-    return 0;
 }

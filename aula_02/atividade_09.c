@@ -15,8 +15,6 @@ int main() {
     } else {
         printf("O número é Zero.\n");
     }
-
-    return 0;
 }
 
 

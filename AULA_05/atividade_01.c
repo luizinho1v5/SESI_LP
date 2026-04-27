@@ -18,7 +18,7 @@ int main()
 
     i = 0;
     while(i < 10){
-        if(nota[i] > media){
+        if(nota[i] >= 7){
             printf("Nota %d: %.2f\n", i+1, nota[i]);
             total_acima_da_media++;
         }

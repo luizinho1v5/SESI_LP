@@ -11,10 +11,13 @@ for(int l = 0; l < 2; l++){
         soma += matriz[l][c];
     }
 }
-
-
-        printf(" | %i", soma);
-    
+for(int l = 0; l < 2; l++){
+    for(int c = 0; c < 2; c++){
+        printf(" | %i", matriz[l][c]);
+    }
     printf("\n");
+}
+printf("A soma de todos os elementos he: ");
+        printf(" %i", soma);
 
 }

@@ -13,7 +13,14 @@ if(matriz[l][c] > 10){
 }
     }
 }
-printf("\ntem %i maiorquedez\n", maiorquedez);
+for(int l = 0; l < 4; l++){
+    for(int c = 0; c < 4; c++){
+        printf(" | %i", matriz[l][c]);
+    }
+    printf("\n");
+}
+
+printf("\ntem %i numero(s) maiorquedez\n", maiorquedez);
     
     printf("\n");
 

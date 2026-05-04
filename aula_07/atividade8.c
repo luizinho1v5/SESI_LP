@@ -20,7 +20,7 @@ int main() {
 		for(int c = 0; c < 2; c++) {
 			printf("\n Digite o numero de linha :%i, coluna: %i: ", l+1, c+1);
 			scanf("%i", &matriz2[l][c]);
-			soma2 += matriz[l][c];
+			soma2 += matriz2[l][c];
 		}
 	}
 	printf("\n A multiplicação das duas matrizes he: %i", (soma2*soma));

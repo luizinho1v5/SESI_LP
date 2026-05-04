@@ -18,6 +18,12 @@ int main() {
 
 		}
 	}
+	for(int l = 0; l < 4; l++) {
+		for(int c = 0; c < 4; c++) {
+			printf(" | %i", matriz[l][c]);
+		}
+		printf("\n");
+	}
 
 
 	printf("\n o menor e o maior numero são: %f e %f", menor, maior);

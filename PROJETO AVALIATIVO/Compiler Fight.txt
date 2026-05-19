@@ -1,0 +1,9 @@
+Compiler Fight  
+
+Compiler Fight é um jogo de batalha em terminal desenvolvido na linguagem C. O jogador enfrenta um bot em uma luta por turnos, onde o objetivo é reduzir a vida do adversário a zero antes de ser derrotado. 
+
+O jogo começa com ambos os participantes possuindo 100 pontos de vida. Durante cada rodada, o jogador pode escolher entre três ações: desviar, curar ou atacar. A barra de vida é exibida visualmente no terminal através da função barraVida(). 
+
+Na opção de desvio, o jogador escolhe uma direção para escapar do ataque do bot. Se errar a esquiva, perde vida; caso consiga desviar corretamente, o bot recebe dano. Na opção de cura, o jogador recupera 20 pontos de vida, mas ainda pode sofrer um ataque inimigo. Já no sistema de ataque, existem dois tipos de golpes: ataque fraco, com maior chance de acerto e dano menor, e ataque forte, com menor chance de acerto e dano elevado. 
+
+O programa demonstra conceitos importantes da linguagem C, como funções, estruturas condicionais, laços de repetição, vetores, strings e manipulação de números aleatórios, sendo um projeto simples voltado para prática de lógica de programação e desenvolvimento de jogos em terminal. 

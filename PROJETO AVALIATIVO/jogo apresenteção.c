@@ -88,21 +88,18 @@ int main() {
 			danoBot = 15;
 			vidaBot = 100;
 			maxVidaBot = 100;
-
 		}
 		else if(dificuldade == 2) {
 			desviar = 6;
 			danoBot = 25;
 			maxVidaBot = 150;
 			vidaBot = 150;
-
 		}
 		else {
 			desviar = 16;
 			danoBot = 30;
 			maxVidaBot = 175;
 			vidaBot = 175;
-
 		}
 
 		for(int i = 0; i < 20; i++) {
@@ -125,7 +122,6 @@ int main() {
 			printf("\n[2] CURAR");
 			printf("\n[3] ATACAR");
 			printf("\n[4] HISTORICO");
-			printf("\n[5] MANUAL");
 			printf("\n[0] SAIR");
 			printf("\n\nEscolha sua acao: ");
 			scanf("%i", &acao);
@@ -324,8 +320,8 @@ int main() {
 
 				else if(forca == 2) {
 
-					forca = rand() % 3;
-					if(forca == 0) {
+					forca = rand() % 4;
+					if(forca == 1) {
 						perdavida = (rand() % 6) + danoPlayer;
 						vidaBot -= perdavida;
 
@@ -402,25 +398,7 @@ int main() {
 				getchar();
 				system(LIMPAR_TELA);
 			}
-			else if(acao == 5) {
-				printf("OBJETIVO:Derrote o BOT reduzindo sua vida a 0.\n");
 
-ACOES:
-				printf("[1] DESVIAR: Escolha uma direcao. Se o BOT atacar o mesmo lado, voce recebe dano. Caso contrario, o BOT perde vida.\n");
-
-				printf("[2] CURARRecupera 20 de vida, mas o BOT ainda pode atacar.\n");
-
-				printf("[3] ATACARAtaque Fraco: mais chance de acerto,menos dano. Ataque Forte: menos chance de acerto,mais dano.\n");
-
-				printf("[4]HISTORICO: Mostra os eventos da partida.\n");
-				printf("VITORIA: Reduza a vida do BOT a 0.\n");
-
-				printf("RANKING: Os melhores tempos sao salvos com base no menor numero de rodadas.\n");
-				printf("\nPressione ENTER para continuar...");
-				getchar();
-				getchar();
-				system(LIMPAR_TELA);
-			}
 			//acao invalida
 			else {
 				printf("\n=========================================");
